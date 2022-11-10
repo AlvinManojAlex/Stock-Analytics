@@ -1,7 +1,6 @@
 # import the required libraries
 library("quantmod")
 library("TTR")
-library("ggplot2")
 
 # Use Yahoo finance API to get the stock price of Eastman Kodak Company
 df_kodk <- getSymbols("KODK", src = "yahoo", auto.assign = FALSE)
